@@ -73,10 +73,7 @@ module SpreadsheetX
       
       # are we setting a format
       cell['s'] = format.to_s
-      
-      # reset this attribute
-      cell['t'] = ''
-      
+
       # create the node which represents the value in the cell
       
       # numeric types
